@@ -25,7 +25,7 @@ public class TestDepartementServiceImpl {
 	@Autowired
 	IDepartementService depServive;
 
-	//@Test
+	/*//@Test
 	public void testRetrieveAllDeps() {
 		List<Departement> deps = depServive.retrieveAllDeps();
 		Assertions.assertEquals(6, deps.size());
@@ -57,6 +57,6 @@ public class TestDepartementServiceImpl {
 	public void testDeleteUser() {
 		depServive.deleteDep("1");
 		Assertions.assertNull(depServive.retrieveDep("1"));
-	}
+	}*/
 
 }
