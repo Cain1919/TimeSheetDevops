@@ -28,7 +28,7 @@ public class TestContratServiceImpl {
 	IContratService contractServive;
 
 
-	@Test
+	/*@Test
 	public void testAddContract() throws ParseException {
 		Contrat c = new Contrat((Long) 1L, (Date) Date.from(Instant.now()) , "CDI", (float) 2500);
 		Contrat contractAdded = contractServive.addContract(c);
@@ -59,7 +59,7 @@ public class TestContratServiceImpl {
 	public void testRetrieveContract() {
 		Contrat contractRetrieved = contractServive.retrieveContract("1");
 		Assertions.assertEquals(2L, contractRetrieved.getReference());
-	}
+	}*/
 
 
 }
