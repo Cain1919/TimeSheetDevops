@@ -25,7 +25,7 @@ public class EntrepriseServiceImplTest {
 		Assertions.assertEquals(6,entreprises.size());
 	}
 
-	@Test
+	//@Test
 	public void testAddEntreprise() throws ParseException{
 		
 		Entreprise en = new Entreprise("Amen Bank","FCD457", null);
